@@ -18,6 +18,14 @@ const Container = styled.div`
     height: 6px;
     background: linear-gradient(90deg, #1e40af, #3b82f6, #60a5fa);
   }
+  
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
+  
+  @media (max-width: 480px) {
+    padding: 1.5rem 0.75rem;
+  }
 `;
 
 const Header = styled.div`
@@ -25,6 +33,16 @@ const Header = styled.div`
   margin-bottom: 4rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid #e2e8f0;
+  
+  @media (max-width: 768px) {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
 `;
 
 const MainTitle = styled.h1`
@@ -34,6 +52,15 @@ const MainTitle = styled.h1`
   margin-bottom: 1rem;
   letter-spacing: -0.025em;
   line-height: 1.1;
+  
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
 `;
 
 const Subtitle = styled.p`
@@ -43,10 +70,28 @@ const Subtitle = styled.p`
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+  
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    max-width: 90%;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 `;
 
 const SponsorTierSection = styled.div`
   margin-bottom: 4rem;
+  
+  @media (max-width: 768px) {
+    margin-bottom: 3rem;
+  }
+  
+  @media (max-width: 480px) {
+    margin-bottom: 2rem;
+  }
 `;
 
 const TierTitle = styled.h2`
@@ -73,6 +118,12 @@ const TierBadge = styled.span`
     'linear-gradient(135deg, #059669, #10b981)'};
   color: white;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  
+  @media (max-width: 480px) {
+    font-size: 0.875rem;
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1.5rem;
+  }
 `;
 
 const CardsGrid = styled.div`
@@ -81,6 +132,18 @@ const CardsGrid = styled.div`
   gap: 2rem;
   justify-items: center;
   margin-bottom: 3rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
 `;
 
 const SponsorCard = styled.div`
@@ -117,6 +180,26 @@ const SponsorCard = styled.div`
       props.tier === 'bronze' ? '#cd7f32' : 
       '#059669'};
   }
+  
+  @media (max-width: 768px) {
+    padding: 2rem;
+    border-radius: 16px;
+    max-width: 100%;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 0 0.5rem;
+    
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
 `;
 
 const SponsorImageLink = styled.a`
@@ -148,6 +231,19 @@ const SponsorImage = styled.img`
       '#059669'};
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   }
+  
+  @media (max-width: 768px) {
+    max-width: 220px;
+    height: 140px;
+    padding: 1.25rem;
+  }
+  
+  @media (max-width: 480px) {
+    max-width: 200px;
+    height: 120px;
+    padding: 1rem;
+    border-radius: 8px;
+  }
 `;
 
 const SponsorName = styled.h3`
@@ -156,6 +252,15 @@ const SponsorName = styled.h3`
   color: #1e293b;
   margin-bottom: 0.5rem;
   line-height: 1.4;
+  
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
 `;
 
 const SponsorDescription = styled.p`
@@ -163,13 +268,24 @@ const SponsorDescription = styled.p`
   color: #64748b;
   line-height: 1.5;
   margin: 0;
+  
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-align: left;
+  }
 `;
 
 const App = () => {
     return(
         <Container>
             <Header>
-                <MainTitle>GJMIC Sponsors</MainTitle>
+                <MainTitle>GJMIC-2025 Sponsors</MainTitle>
                 <Subtitle>
                     We gratefully acknowledge the generous support of our sponsors who make this conclave possible
                 </Subtitle>
