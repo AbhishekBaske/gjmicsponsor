@@ -313,6 +313,23 @@ const App = () => {
                             Established in 1985, NCL is a wholly owned subsidiary of Coal India Limited, operating ten mechanized opencast coal mines in the Singrauli coalfield. The company produces over 122 million tonnes of coal annually and supplies power to major thermal plants across India.
                         </SponsorDescription>
                     </SponsorCard>
+                    <SponsorCard tier="silver">
+                        <SponsorImageLink 
+                            href="https://www.centralcoalfields.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <SponsorImage 
+                                tier="silver"
+                                src="https://cdn.jsdelivr.net/gh/AbhishekBaske/gjmiccdn@main/CCL%20Logo%202024.jpg"
+                                alt="CCL Logo"
+                            />
+                        </SponsorImageLink>
+                        <SponsorName>Central Coalfields Limited</SponsorName>
+                        <SponsorDescription>
+                            Established in 1975, CCL is a subsidiary of Coal India Limited and a Category-I Miniratna company headquartered in Ranchi, Jharkhand. Operating 43 mines across 7 coalfields including East Bokaro, West Bokaro, and Karanpura, CCL produces coal for thermal power generation and maintains 7 washeries for coal processing.
+                        </SponsorDescription>
+                    </SponsorCard>
                 </CardsGrid>
             </SponsorTierSection>
             
@@ -379,6 +396,23 @@ const App = () => {
                         <SponsorName>Mahanadi Coalfields Limited</SponsorName>
                         <SponsorDescription>
                             Established in 1992, MCL is one of the eight subsidiaries of Coal India Limited and operates coal mines across Odisha. The company has become Coal India's largest coal-producing subsidiary with over 203 million tonnes annual production and operates seven open-cast and three underground mines.
+                        </SponsorDescription>
+                    </SponsorCard>
+                    <SponsorCard tier="other">
+                        <SponsorImageLink 
+                            href="https://sharprojects.in/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <SponsorImage 
+                                tier="other"
+                                src="https://cdn.jsdelivr.net/gh/AbhishekBaske/gjmiccdn@main/Logo%20SHAR.jpg" 
+                                alt="SHAR Projects Logo" 
+                            />
+                        </SponsorImageLink>
+                        <SponsorName>SHAR Projects Private Limited</SponsorName>
+                        <SponsorDescription>
+                            Founded in 2023 and headquartered in Hyderabad, SHAR Projects specializes in mining, construction, road development, and railway infrastructure using cutting-edge technology and sustainable practices.
                         </SponsorDescription>
                     </SponsorCard>
                 </CardsGrid>
