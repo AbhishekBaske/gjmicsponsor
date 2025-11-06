@@ -315,6 +315,23 @@ const App = () => {
                     </SponsorCard>
                     <SponsorCard tier="silver">
                         <SponsorImageLink 
+                            href="https://www.jindalpower.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <SponsorImage 
+                                tier="silver"
+                                src="https://cdn.jsdelivr.net/gh/AbhishekBaske/gjmiccdn@main/jindalpower.jpg"
+                                alt="Jindal Power Limited Logo"
+                            />
+                        </SponsorImageLink>
+                        <SponsorName>Jindal Power Limited</SponsorName>
+                        <SponsorDescription>
+                            Jindal Power Limited is a leading independent power producer in India, part of the OP Jindal Group. The company operates thermal power plants with a focus on efficient power generation and sustainable energy solutions for industrial and commercial sectors.
+                        </SponsorDescription>
+                    </SponsorCard>
+                    <SponsorCard tier="silver">
+                        <SponsorImageLink 
                             href="https://www.centralcoalfields.in/"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -355,14 +372,49 @@ const App = () => {
                             Incorporated in 1956, NLC India is a central public sector undertaking that annually produces about 30 million tonnes of lignite from opencast mines at Neyveli and Barsingsar. The company operates thermal power stations with an aggregate capacity of 4,240 MW and has diversified into renewable energy with 1,404 MW solar and 51 MW wind power installations.
                         </SponsorDescription>
                     </SponsorCard>
+                    <SponsorCard tier="bronze">
+                        <SponsorImageLink 
+                            href="https://westerncoal.in/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <SponsorImage
+                                tier="bronze"
+                                src="https://cdn.jsdelivr.net/gh/AbhishekBaske/gjmiccdn@latest/WCL_to_organize_two_day_seminar_on_Coal_Mine_Safety_in_India.jpg
+"
+                                alt="Western Coalfields Limited Logo"
+                            />
+                        </SponsorImageLink>
+                        <SponsorName>Western Coalfields Limited</SponsorName>
+                        <SponsorDescription>
+                            Established in 1975, WCL is a subsidiary of Coal India Limited and operates coal mines across Maharashtra and Madhya Pradesh. The company is one of the major coal producers in India with significant contributions to the country's energy security through sustainable mining practices.
+                        </SponsorDescription>
+                    </SponsorCard>
                 </CardsGrid>
             </SponsorTierSection>
             
             <SponsorTierSection>
                 <div style={{ textAlign: 'center' }}>
-                    <TierBadge tier="other">Supporting Partners</TierBadge>
+                    <TierBadge tier="other">Others Sponsors</TierBadge>
                 </div>
                 <CardsGrid>
+                  <SponsorCard tier="other">
+                        <SponsorImageLink 
+                            href="https://sharprojects.in/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <SponsorImage 
+                                tier="other"
+                                src="https://cdn.jsdelivr.net/gh/AbhishekBaske/gjmiccdn@main/Logo%20SHAR.jpg" 
+                                alt="SHAR Projects Logo" 
+                            />
+                        </SponsorImageLink>
+                        <SponsorName>SHAR Projects Private Limited</SponsorName>
+                        <SponsorDescription>
+                            Founded in 2023 and headquartered in Hyderabad, SHAR Projects specializes in mining, construction, road development, and railway infrastructure using cutting-edge technology and sustainable practices.
+                        </SponsorDescription>
+                    </SponsorCard>
                     <SponsorCard tier="other">
                         <SponsorImageLink 
                             href="https://www.hindalco.com" 
@@ -398,23 +450,7 @@ const App = () => {
                             Established in 1992, MCL is one of the eight subsidiaries of Coal India Limited and operates coal mines across Odisha. The company has become Coal India's largest coal-producing subsidiary with over 203 million tonnes annual production and operates seven open-cast and three underground mines.
                         </SponsorDescription>
                     </SponsorCard>
-                    <SponsorCard tier="other">
-                        <SponsorImageLink 
-                            href="https://sharprojects.in/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                        >
-                            <SponsorImage 
-                                tier="other"
-                                src="https://cdn.jsdelivr.net/gh/AbhishekBaske/gjmiccdn@main/Logo%20SHAR.jpg" 
-                                alt="SHAR Projects Logo" 
-                            />
-                        </SponsorImageLink>
-                        <SponsorName>SHAR Projects Private Limited</SponsorName>
-                        <SponsorDescription>
-                            Founded in 2023 and headquartered in Hyderabad, SHAR Projects specializes in mining, construction, road development, and railway infrastructure using cutting-edge technology and sustainable practices.
-                        </SponsorDescription>
-                    </SponsorCard>
+                    
                 </CardsGrid>
             </SponsorTierSection>
         </Container>
